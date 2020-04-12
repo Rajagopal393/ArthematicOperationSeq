@@ -17,3 +17,7 @@ resultArray[cc]=$thirdOperation
 resultArray[dd]=$fourthOperation
 
 echo "result : " ${resultArray[@]}
+
+echo "results sorted in ascending order :"
+
+printf '%s\n' "${resultArray[@]}" | sort -n
