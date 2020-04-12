@@ -1,2 +1,6 @@
-#! /bin/bash -x
-echo "A program has been created to understand the priority of Arthematic Operators while doing arthematic operation"
+#!/bin/bash 
+echo Enter three values
+read a
+read b
+read c
+echo You entered $a , $b and $c
